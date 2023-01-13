@@ -1,0 +1,1 @@
+Loadstrings for all scripts.
