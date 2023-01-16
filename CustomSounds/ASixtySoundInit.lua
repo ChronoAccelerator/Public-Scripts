@@ -22,8 +22,6 @@ SoundName=tostring(SoundName)
     return sound
 end
 
-repeat wait() until workspace:FindFirstChild("A-60")
-
 print("Yaying")
 local ASixty = GetGitSound("https://github.com/ChronoAccelerator/Public-Scripts/blob/main/CustomSounds/ASixtyFinalSound.mp3?raw=true", "Close")
 game:GetService("Workspace")["A-60"].Rig.PlaySound.SoundId = GetGitSoundID("https://github.com/ChronoAccelerator/Public-Scripts/blob/main/CustomSounds/ASixtyFinalSound.mp3?raw=true")
