@@ -25,9 +25,7 @@ end
 repeat wait() until workspace:FindFirstChild("A-60")
 
 print("Yaying")
-local ASixty = GetGitSound("https://github.com/ChronoAccelerator/Public-Scripts/blob/main/CustomSounds/A60Close.mp3?raw=true", "Close")
-local ASixtyFar = GetGitSound("https://github.com/ChronoAccelerator/Public-Scripts/blob/main/CustomSounds/A60Far.mp3?raw=true", "Far")
-game:GetService("Workspace")["A-60"].Rig.Far.SoundId = GetGitSoundID("https://github.com/ChronoAccelerator/Public-Scripts/blob/main/CustomSounds/A60Far.mp3?raw=true")
-game:GetService("Workspace")["A-60"].Rig.PlaySound.SoundId = GetGitSoundID("https://github.com/ChronoAccelerator/Public-Scripts/blob/main/CustomSounds/A-60%20sound%20Final%20fixed.mp3?raw=true")
+local ASixty = GetGitSound("https://github.com/ChronoAccelerator/Public-Scripts/blob/main/CustomSounds/ASixtyFinalSound.mp3?raw=true", "Close")
+game:GetService("Workspace")["A-60"].Rig.PlaySound.SoundId = GetGitSoundID("https://github.com/ChronoAccelerator/Public-Scripts/blob/main/CustomSounds/ASixtyFinalSound.mp3?raw=true")
 end
 end)
