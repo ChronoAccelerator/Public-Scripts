@@ -106,9 +106,9 @@ end)
 
 Players.PlayerRemoving:Connect(function(player)
     if player == Plr then
-        for _, file in next, listfiles(ChronoScriptsFolder.Name) do
+        for _, file in next, listfiles("") do
             if file:find("customObject") then
-                delfile(ChronoScriptsFolder.Name .. "/" .. file)
+                delfile(file)
             end
         end
     end
