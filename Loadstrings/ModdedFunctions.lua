@@ -1,11 +1,11 @@
 local Players = game:GetService("Players")
 
-local ChronoScriptsFolder = Services:FindFirstChild("ChronoScripts")
-
 local check = "ChronoScripts"
 if not isfolder(check) then
   makefolder(check)
 end
+
+local ChronoScriptsFolder = check
 
 -- Variables
 local Plr = Players.LocalPlayer
