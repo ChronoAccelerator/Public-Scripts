@@ -1,4 +1,5 @@
-local Services = game:GetService("ServerStorage")
+local Players = game:GetService("Players")
+
 local ChronoScriptsFolder = Services:FindFirstChild("ChronoScripts")
 
 local check = "ChronoScripts"
@@ -7,6 +8,7 @@ if not isfolder(check) then
 end
 
 -- Variables
+local Plr = Players.LocalPlayer
 
 local Functions = {
     IsClosure = is_synapse_function or iskrnlclosure or isexecutorclosure,
