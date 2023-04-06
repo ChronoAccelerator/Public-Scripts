@@ -1,1 +1,0 @@
-# Anticheat Bypass for Doors!
